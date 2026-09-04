@@ -7,13 +7,13 @@ about:
   head: b564571
   archived: false
   latestVersion: v0.8.5
-  collectedAt: 2026-09-04T19:45:46Z
+  collectedAt: 2026-09-04T20:53:04Z
 timeline:
   created: 2014-10-30
   lastCommit: 2026-04-16
   lastRelease: 2025-05-21
 popularity:
-  star: 5694
+  star: 5693
   watcher: 81
   fork: 239
   release: 13
@@ -86,6 +86,69 @@ total:
   openIssue: 99
   commit: 1572
 ---
+path: /home/runner/.x-repo/github.com/andmarti1424/sc-im
+collectedAt: 2026-09-04T20:53:05Z
+loc:
+  Scala:
+    code: 32606
+    comments: 0
+    blanks: 42
+    files: 44
+  C:
+    code: 18435
+    comments: 7886
+    blanks: 3298
+    files: 52
+  Happy:
+    code: 1701
+    comments: 0
+    blanks: 125
+    files: 1
+  CHeader:
+    code: 1307
+    comments: 2185
+    blanks: 257
+    files: 53
+  Xml:
+    code: 543
+    comments: 0
+    blanks: 2
+    files: 15
+  Sh:
+    code: 407
+    comments: 83
+    blanks: 75
+    files: 13
+  Makefile:
+    code: 327
+    comments: 114
+    blanks: 104
+    files: 5
+  Lua:
+    code: 61
+    comments: 10
+    blanks: 38
+    files: 5
+  Tex:
+    code: 12
+    comments: 4
+    blanks: 0
+    files: 2
+  GDB:
+    code: 2
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 154
+    blanks: 49
+    files: 4
+total:
+  code: 55401
+  comments: 10436
+  blanks: 3990
+  files: 195
 ---
 date: "2026-08-24"
 repo:
