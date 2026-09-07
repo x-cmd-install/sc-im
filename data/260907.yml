@@ -5,13 +5,13 @@ about:
   head: b564571
   archived: false
   latestVersion: "v0.8.5"
-  collectedAt: 2026-09-07T04:52:21Z
+  collectedAt: 2026-09-07T19:38:14Z
 timeline:
   created: 2014-10-30
   lastCommit: 2026-04-16
   lastRelease: 2025-05-21
 popularity:
-  star: 5692
+  star: 5691
   watcher: 82
   fork: 239
   release: 13
@@ -85,7 +85,7 @@ total:
   commit: 1572
 ---
 path: /home/runner/.x-repo/github.com/andmarti1424/sc-im
-collectedAt: 2026-09-07T04:52:23Z
+collectedAt: 2026-09-07T19:38:16Z
 loc:
   Scala:
     code: 32606
@@ -230,7 +230,7 @@ checks:
       - 'Warn: branch protection not enabled for branch ''dev'''
 ---
 eget:
-  collectedAt: 2026-09-07T04:52:24+00:00
+  collectedAt: 2026-09-07T19:38:17+00:00
   platform:
     darwin/arm64:
       name:  null
