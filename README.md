@@ -12,6 +12,28 @@ sc-im - Spreadsheet Calculator Improvised -- An ncurses spreadsheet program for 
 x install sc-im
 ```
 
+## Code insight
+
+Total: **55,401** lines of code across **165** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Scala | 32,606 | 0 | 42 | 44 |
+| C | 18,435 | 7,886 | 3,298 | 52 |
+| Happy | 1,701 | 0 | 125 | 1 |
+| CHeader | 1,307 | 2,185 | 257 | 53 |
+| Xml | 543 | 0 | 2 | 15 |
+
+## OpenSSF Scorecard
+
+Overall score: **3.3 / 10**
+
+Lowest-scoring checks:
+
+- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+
 ## Source
 
 - **Upstream**: <https://github.com/andmarti1424/sc-im>
@@ -35,30 +57,29 @@ x install sc-im
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 1 | 1 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 1 | 2 | 1 | 0 |
 | 90d | 2026-06-12 | 0 | 3 | 2 | 2 | 3 | 0 |
+| last180d | 2026-03-14 | 0 | 3 | 2 | 4 | 7 | 1 |
 | 360d | 2025-09-15 | 0 | 3 | 4 | 8 | 16 | 10 |
+| last720d | 2024-09-20 | 1 | 8 | 13 | 29 | 40 | 79 |
 
-## Code size
+## Distribution status
 
-Total: **55,401** lines of code across **165** files in the top 5 languages.
+Reported by **72** distros on [repology.org](https://repology.org/project/sc-im). **40** are ✅ on the latest upstream release, **23** are ⚠️ on an older version.
 
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| Scala | 32,606 | 0 | 42 | 44 |
-| C | 18,435 | 7,886 | 3,298 | 52 |
-| Happy | 1,701 | 0 | 125 | 1 |
-| CHeader | 1,307 | 2,185 | 257 | 53 |
-| Xml | 543 | 0 | 2 | 15 |
-
-## OpenSSF Scorecard
-
-Overall score: **3.3 / 10**
-
-Lowest-scoring checks:
-
-- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
-- **Packaging** (-1/10) — packaging workflow not detected
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `0.8.5` | ✅ latest |
+| Debian 14 | `0.8.5` | ✅ latest |
+| Debian 13 | `0.8.4` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.8.5` | ✅ latest |
+| Ubuntu 24.04 LTS | `0.8.3` | ⚠️ outdated |
+| Homebrew | `0.8.5` | ✅ latest |
+| Fedora rawhide | `0.8.5` | ✅ latest |
+| Nix unstable | `0.8.5` | ✅ latest |
+| Void | `0.8.5` | ✅ latest |
+| Alpine edge | `0.8.5` | ✅ latest |
+| openSUSE Tumbleweed | `0.8.5` | ✅ latest |
 
 ## Improve this data
 
@@ -69,4 +90,4 @@ Install metadata for sc-im lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T16:40:36Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T20:56:21Z._

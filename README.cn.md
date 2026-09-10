@@ -12,6 +12,28 @@ sc-im - Spreadsheet Calculator Improvised -- An ncurses spreadsheet program for 
 x install sc-im
 ```
 
+## 代码规模
+
+合计: **55,401** 行代码（覆盖前 5 种语言、共 **165** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Scala | 32,606 | 0 | 42 | 44 |
+| C | 18,435 | 7,886 | 3,298 | 52 |
+| Happy | 1,701 | 0 | 125 | 1 |
+| CHeader | 1,307 | 2,185 | 257 | 53 |
+| Xml | 543 | 0 | 2 | 15 |
+
+## OpenSSF Scorecard 评分
+
+总评分: **3.3 / 10**
+
+评分最低的几项:
+
+- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/andmarti1424/sc-im>
@@ -35,30 +57,29 @@ x install sc-im
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 1 | 1 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 1 | 2 | 1 | 0 |
 | 90d | 2026-06-12 | 0 | 3 | 2 | 2 | 3 | 0 |
+| last180d | 2026-03-14 | 0 | 3 | 2 | 4 | 7 | 1 |
 | 360d | 2025-09-15 | 0 | 3 | 4 | 8 | 16 | 10 |
+| last720d | 2024-09-20 | 1 | 8 | 13 | 29 | 40 | 79 |
 
-## 代码规模
+## 发行版状态
 
-合计: **55,401** 行代码（覆盖前 5 种语言、共 **165** 个文件）。
+在 [repology.org](https://repology.org/project/sc-im) 上共有 **72** 个发行版报告此项目。**40** 个 ✅ 已是最新上游版本，**23** 个 ⚠️ 使用旧版本。
 
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Scala | 32,606 | 0 | 42 | 44 |
-| C | 18,435 | 7,886 | 3,298 | 52 |
-| Happy | 1,701 | 0 | 125 | 1 |
-| CHeader | 1,307 | 2,185 | 257 | 53 |
-| Xml | 543 | 0 | 2 | 15 |
-
-## OpenSSF Scorecard 评分
-
-总评分: **3.3 / 10**
-
-评分最低的几项:
-
-- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
-- **Packaging** (-1/10) — packaging workflow not detected
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `0.8.5` | ✅ latest |
+| Debian 14 | `0.8.5` | ✅ latest |
+| Debian 13 | `0.8.4` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.8.5` | ✅ latest |
+| Ubuntu 24.04 LTS | `0.8.3` | ⚠️ outdated |
+| Homebrew | `0.8.5` | ✅ latest |
+| Fedora rawhide | `0.8.5` | ✅ latest |
+| Nix unstable | `0.8.5` | ✅ latest |
+| Void | `0.8.5` | ✅ latest |
+| Alpine edge | `0.8.5` | ✅ latest |
+| openSUSE Tumbleweed | `0.8.5` | ✅ latest |
 
 ## 改进这些数据
 
@@ -69,4 +90,4 @@ sc-im 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T16:40:37Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T20:56:22Z._
