@@ -1,3 +1,12 @@
+- repo: slackwarearm_15_0
+  subrepo: slackware
+  binname: sc-im
+  visiblename: sc-im
+  version: 20210927_64b1a41
+  origversion: null
+  status: ignored
+  maintainers:
+    - volkerdi@slackware.com
 - repo: kiss_community
   subrepo: community
   srcname: sc-im
@@ -89,6 +98,18 @@
     - cielesti@protonmail.com
   licenses:
     - BSD-4-Clause
+- repo: pkgsrc_2026_1
+  srcname: math/sc-im
+  binname: sc-im
+  visiblename: math/sc-im
+  version: 0.8.4
+  origversion: 0.8.4nb3
+  status: outdated
+  summary: Curses-based spreadsheet program based on sc
+  maintainers:
+    - sjmulder@netbsd.org
+  categories:
+    - math
 - repo: alpine_3_24
   subrepo: community
   srcname: sc-im
@@ -589,18 +610,6 @@
     - BSD-4-Clause
   categories:
     - Productivity/Office/Spreadsheets
-- repo: pkgsrc_2026_1
-  srcname: math/sc-im
-  binname: sc-im
-  visiblename: math/sc-im
-  version: 0.8.4
-  origversion: 0.8.4nb3
-  status: outdated
-  summary: Curses-based spreadsheet program based on sc
-  maintainers:
-    - sjmulder@netbsd.org
-  categories:
-    - math
 - repo: pkgsrc_2026_2
   srcname: math/sc-im
   binname: sc-im
@@ -739,15 +748,6 @@
   version: 0.8.5
   origversion: null
   status: newest
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackwarearm_15_0
-  subrepo: slackware
-  binname: sc-im
-  visiblename: sc-im
-  version: 20210927_64b1a41
-  origversion: null
-  status: ignored
   maintainers:
     - volkerdi@slackware.com
 - repo: solus
@@ -912,4 +912,4 @@
   status: newest
   summary: A spreadsheet program based on SC
   maintainers:
-    - fallback-mnt-vylen@repology
+    - wonkru-dev@proton.me
