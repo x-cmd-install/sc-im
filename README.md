@@ -30,9 +30,9 @@ Overall score: **3.1 / 10**
 
 Lowest-scoring checks:
 
+- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Maintained** (4/10) — 0 commit(s) and 5 issue activity found in the last 90 days -- score normalized to 4
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 
 ## Source
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-29 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-30 | 0 | 0 | 1 | 2 | 0 | 0 |
-| 90d | 2026-06-30 | 0 | 3 | 2 | 2 | 1 | 0 |
-| last180d | 2026-04-01 | 0 | 3 | 2 | 4 | 6 | 1 |
-| 360d | 2025-10-03 | 0 | 3 | 4 | 7 | 15 | 10 |
-| last720d | 2024-10-08 | 1 | 8 | 13 | 29 | 40 | 78 |
+| 30d | 2026-08-30 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-31 | 0 | 0 | 1 | 1 | 0 | 0 |
+| 90d | 2026-07-01 | 0 | 3 | 2 | 2 | 1 | 0 |
+| last180d | 2026-04-02 | 0 | 3 | 2 | 4 | 6 | 1 |
+| 360d | 2025-10-04 | 0 | 3 | 4 | 7 | 15 | 10 |
+| last720d | 2024-10-09 | 1 | 8 | 13 | 29 | 40 | 78 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for sc-im lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260928.yml` · 2026-09-28T05:39:40Z._
+_Snapshot: `data/card/260929.yml` · 2026-09-29T06:02:39Z._
