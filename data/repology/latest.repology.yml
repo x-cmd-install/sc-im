@@ -1,77 +1,42 @@
-- repo: pkgsrc_2026_3
-  srcname: math/sc-im
-  binname: sc-im
-  visiblename: math/sc-im
+- repo: deepin_25
+  subrepo: community
+  srcname: sc-im
+  binnames:
+    - sc-im
+  visiblename: sc-im
   version: 0.8.4
-  origversion: 0.8.4nb4
+  origversion: 0.8.4+ds-1
   status: outdated
-  summary: Curses-based spreadsheet program based on sc
   maintainers:
-    - sjmulder@netbsd.org
+    - team+math@tracker.debian.org
+    - itzswirlz2020@outlook.com
+    - tar@debian.org
   categories:
-    - math
-- repo: pkgsrc_current
-  srcname: math/sc-im
-  binname: sc-im
-  visiblename: math/sc-im
-  version: 0.8.4
-  origversion: 0.8.4nb4
-  status: outdated
-  summary: Curses-based spreadsheet program based on sc
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: sc-im
+  binnames:
+    - sc-im
+  visiblename: sc-im
+  version: 0.8.5
+  origversion: 0.8.5+ds-2
+  status: newest
   maintainers:
-    - sjmulder@netbsd.org
+    - team+math@tracker.debian.org
+    - itzswirlz2020@outlook.com
+    - tar@debian.org
   categories:
-    - math
-- repo: pld
+    - misc
+- repo: kiss_community
+  subrepo: community
   srcname: sc-im
   visiblename: sc-im
   version: 0.8.5
-  origversion: 0.8.5-1
+  origversion: null
   status: newest
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: sc-im
-  binnames:
-    - sc-im
-  visiblename: sc-im
-  version: 0.8.4
-  origversion: 0.8.4+ds-1
-  status: outdated
   maintainers:
-    - team+math@tracker.debian.org
-    - itzswirlz2020@outlook.com
-    - tar@debian.org
-  categories:
-    - math
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: sc-im
-  binnames:
-    - sc-im
-  visiblename: sc-im
-  version: 0.8.2
-  origversion: 0.8.2+ds-1
-  status: outdated
-  maintainers:
-    - team+math@tracker.debian.org
-    - itzswirlz2020@outlook.com
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: sc-im
-  binnames:
-    - sc-im
-  visiblename: sc-im
-  version: 0.8.4
-  origversion: 0.8.4+ds-1
-  status: outdated
-  maintainers:
-    - team+math@tracker.debian.org
-    - itzswirlz2020@outlook.com
-    - tar@debian.org
-  categories:
-    - misc
+    - cedric@vouivre.org
 - repo: raspbian_testing
   subrepo: main
   srcname: sc-im
@@ -101,6 +66,81 @@
   origversion: null
   status: rolling
   summary: Spreadsheet program for the terminal, using ncurses
+- repo: kali_rolling
+  subrepo: main
+  srcname: sc-im
+  binnames:
+    - sc-im
+  visiblename: sc-im
+  version: 0.8.5
+  origversion: 0.8.5+ds-2
+  status: newest
+  maintainers:
+    - team+math@tracker.debian.org
+    - itzswirlz2020@outlook.com
+    - tar@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: sc-im
+  binnames:
+    - sc-im
+  visiblename: sc-im
+  version: 0.8.4
+  origversion: 0.8.4+ds-1
+  status: outdated
+  maintainers:
+    - team+math@tracker.debian.org
+    - itzswirlz2020@outlook.com
+    - tar@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: sc-im
+  binnames:
+    - sc-im
+  visiblename: sc-im
+  version: 0.8.4
+  origversion: 0.8.4+ds-1
+  status: outdated
+  maintainers:
+    - team+math@tracker.debian.org
+    - itzswirlz2020@outlook.com
+    - tar@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: sc-im
+  binnames:
+    - sc-im
+  visiblename: sc-im
+  version: 0.8.4
+  origversion: 0.8.4+ds-1
+  status: outdated
+  maintainers:
+    - team+math@tracker.debian.org
+    - itzswirlz2020@outlook.com
+    - tar@debian.org
+  categories:
+    - misc
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: sc-im
+  binnames:
+    - sc-im
+  visiblename: sc-im
+  version: 0.8.5
+  origversion: 0.8.5+ds-2
+  status: newest
+  maintainers:
+    - team+math@tracker.debian.org
+    - itzswirlz2020@outlook.com
+    - tar@debian.org
+  categories:
+    - misc
 - repo: alpine_3_22
   subrepo: community
   srcname: sc-im
@@ -259,51 +299,6 @@
     - tar@debian.org
   categories:
     - misc
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: sc-im
-  binnames:
-    - sc-im
-  visiblename: sc-im
-  version: 0.8.5
-  origversion: 0.8.5+ds-2
-  status: newest
-  maintainers:
-    - team+math@tracker.debian.org
-    - itzswirlz2020@outlook.com
-    - tar@debian.org
-  categories:
-    - misc
-- repo: deepin_25
-  subrepo: community
-  srcname: sc-im
-  binnames:
-    - sc-im
-  visiblename: sc-im
-  version: 0.8.4
-  origversion: 0.8.4+ds-1
-  status: outdated
-  maintainers:
-    - team+math@tracker.debian.org
-    - itzswirlz2020@outlook.com
-    - tar@debian.org
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: sc-im
-  binnames:
-    - sc-im
-  visiblename: sc-im
-  version: 0.8.5
-  origversion: 0.8.5+ds-2
-  status: newest
-  maintainers:
-    - team+math@tracker.debian.org
-    - itzswirlz2020@outlook.com
-    - tar@debian.org
-  categories:
-    - misc
 - repo: fedora_40
   subrepo: updates
   srcname: sc-im
@@ -362,18 +357,6 @@
     - BSD-4-Clause
   categories:
     - Unspecified
-- repo: pkgsrc_2026_2
-  srcname: math/sc-im
-  binname: sc-im
-  visiblename: math/sc-im
-  version: 0.8.4
-  origversion: 0.8.4nb4
-  status: outdated
-  summary: Curses-based spreadsheet program based on sc
-  maintainers:
-    - sjmulder@netbsd.org
-  categories:
-    - math
 - repo: fedora_43
   subrepo: release
   srcname: sc-im
@@ -472,30 +455,6 @@
   status: outdated
   categories:
     - app-office
-- repo: kali_rolling
-  subrepo: main
-  srcname: sc-im
-  binnames:
-    - sc-im
-  visiblename: sc-im
-  version: 0.8.5
-  origversion: 0.8.5+ds-2
-  status: newest
-  maintainers:
-    - team+math@tracker.debian.org
-    - itzswirlz2020@outlook.com
-    - tar@debian.org
-  categories:
-    - misc
-- repo: kiss_community
-  subrepo: community
-  srcname: sc-im
-  visiblename: sc-im
-  version: 0.8.5
-  origversion: null
-  status: newest
-  maintainers:
-    - cedric@vouivre.org
 - repo: liguros_stable
   srcname: app-office/sc-im
   visiblename: app-office/sc-im
@@ -660,8 +619,50 @@
     - BSD-4-Clause
   categories:
     - Productivity/Office/Spreadsheets
-- repo: parrot
-  subrepo: parrot/main
+- repo: pkgsrc_2026_2
+  srcname: math/sc-im
+  binname: sc-im
+  visiblename: math/sc-im
+  version: 0.8.4
+  origversion: 0.8.4nb4
+  status: outdated
+  summary: Curses-based spreadsheet program based on sc
+  maintainers:
+    - sjmulder@netbsd.org
+  categories:
+    - math
+- repo: pkgsrc_2026_3
+  srcname: math/sc-im
+  binname: sc-im
+  visiblename: math/sc-im
+  version: 0.8.4
+  origversion: 0.8.4nb4
+  status: outdated
+  summary: Curses-based spreadsheet program based on sc
+  maintainers:
+    - sjmulder@netbsd.org
+  categories:
+    - math
+- repo: pkgsrc_current
+  srcname: math/sc-im
+  binname: sc-im
+  visiblename: math/sc-im
+  version: 0.8.4
+  origversion: 0.8.4nb4
+  status: outdated
+  summary: Curses-based spreadsheet program based on sc
+  maintainers:
+    - sjmulder@netbsd.org
+  categories:
+    - math
+- repo: pld
+  srcname: sc-im
+  visiblename: sc-im
+  version: 0.8.5
+  origversion: 0.8.5-1
+  status: newest
+- repo: pureos_landing
+  subrepo: landing/main
   srcname: sc-im
   binnames:
     - sc-im
@@ -674,20 +675,19 @@
     - itzswirlz2020@outlook.com
     - tar@debian.org
   categories:
-    - misc
-- repo: parrot
-  subrepo: parrot-updates/main
+    - math
+- repo: raspbian_oldstable
+  subrepo: main
   srcname: sc-im
   binnames:
     - sc-im
   visiblename: sc-im
-  version: 0.8.4
-  origversion: 0.8.4+ds-1
+  version: 0.8.2
+  origversion: 0.8.2+ds-1
   status: outdated
   maintainers:
     - team+math@tracker.debian.org
     - itzswirlz2020@outlook.com
-    - tar@debian.org
   categories:
     - misc
 - repo: rpmsphere
@@ -778,6 +778,16 @@
     - BSD-4-Clause
   categories:
     - debug
+- repo: starkos
+  subrepo: extra
+  srcname: sc-im
+  visiblename: sc-im
+  version: 0.8.5
+  origversion: 0.8.5-1
+  status: newest
+  summary: A spreadsheet program based on SC
+  maintainers:
+    - starkos@disroot.org
 - repo: termux
   srcname: sc-im
   binname: sc-im
