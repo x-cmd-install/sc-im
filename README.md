@@ -14,14 +14,14 @@ x install sc-im
 
 ## Code insight
 
-Total: **55,401** lines of code across **165** files in the top 5 languages.
+Total: **55,616** lines of code across **165** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Scala | 32,606 | 0 | 42 | 44 |
-| C | 18,435 | 7,886 | 3,298 | 52 |
-| Happy | 1,701 | 0 | 125 | 1 |
-| CHeader | 1,307 | 2,185 | 257 | 53 |
+| C | 18,502 | 7,896 | 3,310 | 52 |
+| Happy | 1,713 | 0 | 125 | 1 |
+| CHeader | 1,309 | 2,185 | 257 | 53 |
 | Xml | 543 | 0 | 2 | 15 |
 
 ## OpenSSF Scorecard
@@ -42,26 +42,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.8.5` (2025-05-21)
-- **Last commit**: 2026-04-16
+- **Last commit**: 2026-10-27
 
 ## Popularity
 
-- **Stars**: 5,716 · **Forks**: 239 · **Open issues**: 664 · **Contributors**: 57
+- **Stars**: 5,716 · **Forks**: 239 · **Open issues**: 665 · **Contributors**: 60
 
 ## Totals (cumulative)
 
-- **Releases**: 13 · **Merged PRs**: 154 · **Open PRs**: 19 · **Closed issues**: 565 · **Open issues**: 99 · **Commits**: 1572
+- **Releases**: 13 · **Merged PRs**: 154 · **Open PRs**: 17 · **Closed issues**: 566 · **Open issues**: 99 · **Commits**: 1596
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-08-28 | 0 | 0 | 1 | 0 | 0 | 0 |
-| 90d | 2026-07-29 | 0 | 0 | 2 | 2 | 0 | 0 |
-| last180d | 2026-04-30 | 0 | 3 | 3 | 3 | 6 | 0 |
-| 360d | 2025-11-01 | 0 | 3 | 5 | 6 | 14 | 10 |
-| last720d | 2024-11-06 | 1 | 6 | 12 | 23 | 38 | 65 |
+| 30d | 2026-09-28 | 0 | 0 | 0 | 0 | 1 | 3 |
+| last60d | 2026-08-29 | 0 | 0 | 0 | 0 | 1 | 3 |
+| 90d | 2026-07-30 | 0 | 0 | 0 | 2 | 1 | 6 |
+| last180d | 2026-05-01 | 0 | 3 | 1 | 4 | 6 | 18 |
+| 360d | 2025-11-02 | 0 | 3 | 3 | 7 | 14 | 28 |
+| last720d | 2024-11-07 | 1 | 6 | 10 | 23 | 38 | 89 |
 
 ## Distribution status
 
@@ -90,4 +90,4 @@ Install metadata for sc-im lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261027.yml` · 2026-10-27T05:15:09Z._
+_Snapshot: `data/card/261028.yml` · 2026-10-28T05:48:36Z._
