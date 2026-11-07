@@ -1,86 +1,3 @@
-- repo: deepin_25
-  subrepo: community
-  srcname: sc-im
-  binnames:
-    - sc-im
-  visiblename: sc-im
-  version: 0.8.4
-  origversion: 0.8.4+ds-1
-  status: outdated
-  maintainers:
-    - team+math@tracker.debian.org
-    - itzswirlz2020@outlook.com
-    - tar@debian.org
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: sc-im
-  binnames:
-    - sc-im
-  visiblename: sc-im
-  version: 0.8.5
-  origversion: 0.8.5+ds-2
-  status: newest
-  maintainers:
-    - team+math@tracker.debian.org
-    - itzswirlz2020@outlook.com
-    - tar@debian.org
-  categories:
-    - misc
-- repo: kiss_community
-  subrepo: community
-  srcname: sc-im
-  visiblename: sc-im
-  version: 0.8.5
-  origversion: null
-  status: newest
-  maintainers:
-    - cedric@vouivre.org
-- repo: raspbian_testing
-  subrepo: main
-  srcname: sc-im
-  binnames:
-    - sc-im
-  visiblename: sc-im
-  version: 0.8.5
-  origversion: 0.8.5+ds-2
-  status: newest
-  maintainers:
-    - team+math@tracker.debian.org
-    - itzswirlz2020@outlook.com
-    - tar@debian.org
-  categories:
-    - misc
-- repo: homebrew
-  srcname: sc-im
-  visiblename: sc-im
-  version: 0.8.5
-  origversion: null
-  status: newest
-  summary: Spreadsheet program for the terminal, using ncurses
-- repo: homebrew
-  srcname: sc-im
-  visiblename: sc-im
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Spreadsheet program for the terminal, using ncurses
-- repo: kali_rolling
-  subrepo: main
-  srcname: sc-im
-  binnames:
-    - sc-im
-  visiblename: sc-im
-  version: 0.8.5
-  origversion: 0.8.5+ds-2
-  status: newest
-  maintainers:
-    - team+math@tracker.debian.org
-    - itzswirlz2020@outlook.com
-    - tar@debian.org
-  categories:
-    - misc
 - repo: parrot
   subrepo: parrot-updates/main
   srcname: sc-im
@@ -96,6 +13,79 @@
     - tar@debian.org
   categories:
     - misc
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: sc-im
+  visiblename: sc-im
+  version: 0.8.3
+  origversion: 0.8.3-bp156.1.3
+  status: outdated
+  summary: An ncurses spreadsheet program for terminal
+  licenses:
+    - BSD-4-Clause
+  categories:
+    - Productivity/Office/Spreadsheets
+- repo: kiss_community
+  subrepo: community
+  srcname: sc-im
+  visiblename: sc-im
+  version: 0.8.5
+  origversion: null
+  status: newest
+  maintainers:
+    - cedric@vouivre.org
+- repo: alpine_3_22
+  subrepo: community
+  srcname: sc-im
+  binname: sc-im
+  visiblename: sc-im
+  version: 0.8.5
+  origversion: 0.8.5-r0
+  status: newest
+  summary: ncurses spreadsheet program based on SC
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - BSD-4-Clause
+- repo: alpine_3_22
+  subrepo: community
+  srcname: sc-im
+  binname: sc-im-doc
+  visiblename: sc-im-doc
+  version: 0.8.5
+  origversion: 0.8.5-r0
+  status: newest
+  summary: ncurses spreadsheet program based on SC (documentation)
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - BSD-4-Clause
+- repo: alpine_3_23
+  subrepo: community
+  srcname: sc-im
+  binname: sc-im
+  visiblename: sc-im
+  version: 0.8.5
+  origversion: 0.8.5-r0
+  status: newest
+  summary: ncurses spreadsheet program based on SC
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - BSD-4-Clause
+- repo: alpine_3_23
+  subrepo: community
+  srcname: sc-im
+  binname: sc-im-doc
+  visiblename: sc-im-doc
+  version: 0.8.5
+  origversion: 0.8.5-r0
+  status: newest
+  summary: ncurses spreadsheet program based on SC (documentation)
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - BSD-4-Clause
 - repo: parrot
   subrepo: parrot/main
   srcname: sc-im
@@ -111,88 +101,6 @@
     - tar@debian.org
   categories:
     - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: sc-im
-  binnames:
-    - sc-im
-  visiblename: sc-im
-  version: 0.8.4
-  origversion: 0.8.4+ds-1
-  status: outdated
-  maintainers:
-    - team+math@tracker.debian.org
-    - itzswirlz2020@outlook.com
-    - tar@debian.org
-  categories:
-    - misc
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: sc-im
-  binnames:
-    - sc-im
-  visiblename: sc-im
-  version: 0.8.5
-  origversion: 0.8.5+ds-2
-  status: newest
-  maintainers:
-    - team+math@tracker.debian.org
-    - itzswirlz2020@outlook.com
-    - tar@debian.org
-  categories:
-    - misc
-- repo: alpine_3_22
-  subrepo: community
-  srcname: sc-im
-  binname: sc-im
-  visiblename: sc-im
-  version: 0.8.5
-  origversion: 0.8.5-r0
-  status: newest
-  summary: ncurses spreadsheet program based on SC
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - BSD-4-Clause
-- repo: alpine_3_22
-  subrepo: community
-  srcname: sc-im
-  binname: sc-im-doc
-  visiblename: sc-im-doc
-  version: 0.8.5
-  origversion: 0.8.5-r0
-  status: newest
-  summary: ncurses spreadsheet program based on SC (documentation)
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - BSD-4-Clause
-- repo: alpine_3_23
-  subrepo: community
-  srcname: sc-im
-  binname: sc-im
-  visiblename: sc-im
-  version: 0.8.5
-  origversion: 0.8.5-r0
-  status: newest
-  summary: ncurses spreadsheet program based on SC
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - BSD-4-Clause
-- repo: alpine_3_23
-  subrepo: community
-  srcname: sc-im
-  binname: sc-im-doc
-  visiblename: sc-im-doc
-  version: 0.8.5
-  origversion: 0.8.5-r0
-  status: newest
-  summary: ncurses spreadsheet program based on SC (documentation)
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - BSD-4-Clause
 - repo: alpine_3_24
   subrepo: community
   srcname: sc-im
@@ -299,6 +207,51 @@
     - tar@debian.org
   categories:
     - misc
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: sc-im
+  binnames:
+    - sc-im
+  visiblename: sc-im
+  version: 0.8.5
+  origversion: 0.8.5+ds-2
+  status: newest
+  maintainers:
+    - team+math@tracker.debian.org
+    - itzswirlz2020@outlook.com
+    - tar@debian.org
+  categories:
+    - misc
+- repo: deepin_25
+  subrepo: community
+  srcname: sc-im
+  binnames:
+    - sc-im
+  visiblename: sc-im
+  version: 0.8.4
+  origversion: 0.8.4+ds-1
+  status: outdated
+  maintainers:
+    - team+math@tracker.debian.org
+    - itzswirlz2020@outlook.com
+    - tar@debian.org
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: sc-im
+  binnames:
+    - sc-im
+  visiblename: sc-im
+  version: 0.8.5
+  origversion: 0.8.5+ds-2
+  status: newest
+  maintainers:
+    - team+math@tracker.debian.org
+    - itzswirlz2020@outlook.com
+    - tar@debian.org
+  categories:
+    - misc
 - repo: fedora_40
   subrepo: updates
   srcname: sc-im
@@ -315,6 +268,17 @@
     - BSD-4-Clause
   categories:
     - Unspecified
+- repo: nix_unstable
+  srcname: sc-im
+  visiblename: sc-im
+  version: 0.8.5
+  origversion: null
+  status: newest
+  summary: Ncurses spreadsheet program for terminal
+  maintainers:
+    - nix@dotlambda.de
+  licenses:
+    - BSD-4-Clause
 - repo: fedora_41
   subrepo: updates
   srcname: sc-im
@@ -455,6 +419,35 @@
   status: outdated
   categories:
     - app-office
+- repo: homebrew
+  srcname: sc-im
+  visiblename: sc-im
+  version: 0.8.5
+  origversion: null
+  status: newest
+  summary: Spreadsheet program for the terminal, using ncurses
+- repo: homebrew
+  srcname: sc-im
+  visiblename: sc-im
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Spreadsheet program for the terminal, using ncurses
+- repo: kali_rolling
+  subrepo: main
+  srcname: sc-im
+  binnames:
+    - sc-im
+  visiblename: sc-im
+  version: 0.8.5
+  origversion: 0.8.5+ds-2
+  status: newest
+  maintainers:
+    - team+math@tracker.debian.org
+    - itzswirlz2020@outlook.com
+    - tar@debian.org
+  categories:
+    - misc
 - repo: liguros_stable
   srcname: app-office/sc-im
   visiblename: app-office/sc-im
@@ -580,29 +573,6 @@
     - nix@dotlambda.de
   licenses:
     - BSD-4-Clause
-- repo: nix_unstable
-  srcname: sc-im
-  visiblename: sc-im
-  version: 0.8.5
-  origversion: null
-  status: newest
-  summary: Ncurses spreadsheet program for terminal
-  maintainers:
-    - nix@dotlambda.de
-  licenses:
-    - BSD-4-Clause
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: sc-im
-  visiblename: sc-im
-  version: 0.8.3
-  origversion: 0.8.3-bp156.1.3
-  status: outdated
-  summary: An ncurses spreadsheet program for terminal
-  licenses:
-    - BSD-4-Clause
-  categories:
-    - Productivity/Office/Spreadsheets
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: sc-im
@@ -688,6 +658,36 @@
   maintainers:
     - team+math@tracker.debian.org
     - itzswirlz2020@outlook.com
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: sc-im
+  binnames:
+    - sc-im
+  visiblename: sc-im
+  version: 0.8.4
+  origversion: 0.8.4+ds-1
+  status: outdated
+  maintainers:
+    - team+math@tracker.debian.org
+    - itzswirlz2020@outlook.com
+    - tar@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: sc-im
+  binnames:
+    - sc-im
+  visiblename: sc-im
+  version: 0.8.5
+  origversion: 0.8.5+ds-2
+  status: newest
+  maintainers:
+    - team+math@tracker.debian.org
+    - itzswirlz2020@outlook.com
+    - tar@debian.org
   categories:
     - misc
 - repo: rpmsphere
@@ -873,6 +873,21 @@
     - universe/misc
 - repo: ubuntu_26_10
   subrepo: stonking/universe
+  srcname: sc-im
+  binnames:
+    - sc-im
+  visiblename: sc-im
+  version: 0.8.5
+  origversion: 0.8.5+ds-2
+  status: newest
+  maintainers:
+    - team+math@tracker.debian.org
+    - itzswirlz2020@outlook.com
+    - tar@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: sc-im
   binnames:
     - sc-im
