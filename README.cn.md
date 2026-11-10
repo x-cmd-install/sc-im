@@ -30,8 +30,8 @@ x install sc-im
 
 评分最低的几项:
 
-- **Code-Review** (1/10) — Found 3/27 approved changesets -- score normalized to 1
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (1/10) — Found 3/27 approved changesets -- score normalized to 1
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
@@ -46,7 +46,7 @@ x install sc-im
 
 ## 流行度
 
-- **Star**: 5,720 · **Fork**: 237 · **开放 issue**: 666 · **贡献者**: 60
+- **Star**: 5,721 · **Fork**: 237 · **开放 issue**: 666 · **贡献者**: 60
 
 ## 累计统计
 
@@ -56,12 +56,12 @@ x install sc-im
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-10 | 0 | 0 | 0 | 0 | 2 | 7 |
-| last60d | 2026-09-10 | 0 | 0 | 0 | 0 | 2 | 7 |
-| 90d | 2026-08-11 | 0 | 0 | 0 | 1 | 2 | 9 |
-| last180d | 2026-05-13 | 0 | 3 | 1 | 4 | 5 | 19 |
-| 360d | 2025-11-14 | 0 | 3 | 3 | 8 | 14 | 32 |
-| last720d | 2024-11-19 | 1 | 5 | 8 | 23 | 37 | 88 |
+| 30d | 2026-10-11 | 0 | 0 | 0 | 0 | 2 | 7 |
+| last60d | 2026-09-11 | 0 | 0 | 0 | 0 | 2 | 7 |
+| 90d | 2026-08-12 | 0 | 0 | 0 | 1 | 2 | 9 |
+| last180d | 2026-05-14 | 0 | 3 | 1 | 4 | 5 | 19 |
+| 360d | 2025-11-15 | 0 | 3 | 3 | 8 | 14 | 32 |
+| last720d | 2024-11-20 | 1 | 5 | 8 | 23 | 37 | 88 |
 
 ## 发行版状态
 
@@ -90,4 +90,4 @@ sc-im 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261109.yml` · 2026-11-09T06:42:58Z._
+_数据快照: `data/card/261110.yml` · 2026-11-10T07:34:28Z._
