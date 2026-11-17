@@ -1,17 +1,3 @@
-- repo: homebrew
-  srcname: sc-im
-  visiblename: sc-im
-  version: 0.8.5
-  origversion: null
-  status: newest
-  summary: Spreadsheet program for the terminal, using ncurses
-- repo: homebrew
-  srcname: sc-im
-  visiblename: sc-im
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Spreadsheet program for the terminal, using ncurses
 - repo: parrot
   subrepo: parrot/main
   srcname: sc-im
@@ -27,63 +13,6 @@
     - tar@debian.org
   categories:
     - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: sc-im
-  binnames:
-    - sc-im
-  visiblename: sc-im
-  version: 0.8.4
-  origversion: 0.8.4+ds-1
-  status: outdated
-  maintainers:
-    - team+math@tracker.debian.org
-    - itzswirlz2020@outlook.com
-    - tar@debian.org
-  categories:
-    - misc
-- repo: kali_rolling
-  subrepo: main
-  srcname: sc-im
-  binnames:
-    - sc-im
-  visiblename: sc-im
-  version: 0.8.5
-  origversion: 0.8.5+ds-2
-  status: newest
-  maintainers:
-    - team+math@tracker.debian.org
-    - itzswirlz2020@outlook.com
-    - tar@debian.org
-  categories:
-    - misc
-- repo: kiss_community
-  subrepo: community
-  srcname: sc-im
-  visiblename: sc-im
-  version: 0.8.5
-  origversion: null
-  status: newest
-  maintainers:
-    - cedric@vouivre.org
-- repo: slackware64_current
-  subrepo: slackware64
-  binname: sc-im
-  visiblename: sc-im
-  version: 0.8.5
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackwarearm_15_0
-  subrepo: slackware
-  binname: sc-im
-  visiblename: sc-im
-  version: 20210927_64b1a41
-  origversion: null
-  status: ignored
-  maintainers:
-    - volkerdi@slackware.com
 - repo: alpine_3_22
   subrepo: community
   srcname: sc-im
@@ -149,6 +78,15 @@
     - omni+alpine@hack.org
   licenses:
     - BSD-4-Clause
+- repo: kiss_community
+  subrepo: community
+  srcname: sc-im
+  visiblename: sc-im
+  version: 0.8.5
+  origversion: null
+  status: newest
+  maintainers:
+    - cedric@vouivre.org
 - repo: alpine_3_24
   subrepo: community
   srcname: sc-im
@@ -331,6 +269,21 @@
     - BSD-4-Clause
   categories:
     - Unspecified
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: sc-im
+  binnames:
+    - sc-im
+  visiblename: sc-im
+  version: 0.8.4
+  origversion: 0.8.4+ds-1
+  status: outdated
+  maintainers:
+    - team+math@tracker.debian.org
+    - itzswirlz2020@outlook.com
+    - tar@debian.org
+  categories:
+    - misc
 - repo: fedora_42
   subrepo: updates
   srcname: sc-im
@@ -367,6 +320,20 @@
   visiblename: sc-im
   version: 0.8.5
   origversion: 0.8.5-5.fc44
+  status: newest
+  summary: Spreadsheet Calculator Improvised, ncurses based vim-like spreadsheet calculator
+  licenses:
+    - BSD-4-Clause
+  categories:
+    - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: sc-im
+  binnames:
+    - sc-im
+  visiblename: sc-im
+  version: 0.8.5
+  origversion: 0.8.5-6.fc45
   status: newest
   summary: Spreadsheet Calculator Improvised, ncurses based vim-like spreadsheet calculator
   licenses:
@@ -443,6 +410,35 @@
   status: outdated
   categories:
     - app-office
+- repo: homebrew
+  srcname: sc-im
+  visiblename: sc-im
+  version: 0.8.5
+  origversion: null
+  status: newest
+  summary: Spreadsheet program for the terminal, using ncurses
+- repo: homebrew
+  srcname: sc-im
+  visiblename: sc-im
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Spreadsheet program for the terminal, using ncurses
+- repo: kali_rolling
+  subrepo: main
+  srcname: sc-im
+  binnames:
+    - sc-im
+  visiblename: sc-im
+  version: 0.8.5
+  origversion: 0.8.5+ds-2
+  status: newest
+  maintainers:
+    - team+math@tracker.debian.org
+    - itzswirlz2020@outlook.com
+    - tar@debian.org
+  categories:
+    - misc
 - repo: liguros_stable
   srcname: app-office/sc-im
   visiblename: app-office/sc-im
@@ -743,6 +739,24 @@
     - volkerdi@slackware.com
 - repo: slackware64_15_0
   subrepo: slackware64
+  binname: sc-im
+  visiblename: sc-im
+  version: 20210927_64b1a41
+  origversion: null
+  status: ignored
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware64_current
+  subrepo: slackware64
+  binname: sc-im
+  visiblename: sc-im
+  version: 0.8.5
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackwarearm_15_0
+  subrepo: slackware
   binname: sc-im
   visiblename: sc-im
   version: 20210927_64b1a41
