@@ -36,7 +36,7 @@ Total: **55,622** lines of code across **165** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 5,718 · **Forks**: 236 · **Open issues**: 666 · **Contributors**: 60
+- **Stars**: 5,721 · **Forks**: 236 · **Open issues**: 666 · **Contributors**: 60
 
 ## Totals (cumulative)
 
@@ -46,12 +46,30 @@ Total: **55,622** lines of code across **165** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-26 | 0 | 0 | 0 | 0 | 2 | 0 |
-| last60d | 2026-09-26 | 0 | 0 | 0 | 0 | 2 | 7 |
-| 90d | 2026-08-27 | 0 | 0 | 0 | 0 | 2 | 7 |
-| last180d | 2026-05-29 | 0 | 3 | 1 | 4 | 4 | 19 |
-| 360d | 2025-11-30 | 0 | 3 | 3 | 8 | 14 | 32 |
-| last720d | 2024-12-05 | 1 | 4 | 8 | 21 | 35 | 82 |
+| 30d | 2026-10-27 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last60d | 2026-09-27 | 0 | 0 | 0 | 0 | 2 | 7 |
+| 90d | 2026-08-28 | 0 | 0 | 0 | 0 | 2 | 7 |
+| last180d | 2026-05-30 | 0 | 3 | 1 | 4 | 4 | 19 |
+| 360d | 2025-12-01 | 0 | 3 | 3 | 8 | 14 | 32 |
+| last720d | 2024-12-06 | 1 | 4 | 8 | 21 | 35 | 82 |
+
+## Distribution status
+
+Reported by **74** distros on [repology.org](https://repology.org/project/sc-im). **44** are ✅ on the latest upstream release, **21** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `0.8.5` | ✅ latest |
+| Debian 14 | `0.8.5` | ✅ latest |
+| Debian 13 | `0.8.4` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.8.5` | ✅ latest |
+| Ubuntu 24.04 LTS | `0.8.3` | ⚠️ outdated |
+| Homebrew | `0.8.5` | ✅ latest |
+| Fedora rawhide | `0.8.5` | ✅ latest |
+| Nix unstable | `0.8.5` | ✅ latest |
+| Void | `0.8.5` | ✅ latest |
+| Alpine edge | `0.8.5` | ✅ latest |
+| openSUSE Tumbleweed | `0.8.5` | ✅ latest |
 
 ## Improve this data
 
@@ -62,4 +80,4 @@ Install metadata for sc-im lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261125.yml` · 2026-11-25T08:46:22Z._
+_Snapshot: `data/card/261126.yml` · 2026-11-26T08:35:04Z._
