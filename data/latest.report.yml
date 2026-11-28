@@ -7,7 +7,7 @@ about:
   latestVersion: "v0.8.5"
   latestRelease: "v0.8.5"
   latestPrerelease: ""
-  collectedAt: 2026-11-27T09:31:18Z
+  collectedAt: 2026-11-28T08:12:27Z
 timeline:
   created: 2014-10-30
   lastCommit: 2026-10-28
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2025-05-21
   lastPrerelease: 
 popularity:
-  star: 5722
+  star: 5721
   watcher: 81
   fork: 236
   release: 13
@@ -34,7 +34,7 @@ language:
 totalBytes: 1238960
 recent:
   last30d:
-    since: 2026-10-28
+    since: 2026-10-29
     release: 0
     mergedPR: 0
     openPR: 0
@@ -42,7 +42,7 @@ recent:
     openIssue: 2
     commit: 0
   last60d:
-    since: 2026-09-28
+    since: 2026-09-29
     release: 0
     mergedPR: 0
     openPR: 0
@@ -50,7 +50,7 @@ recent:
     openIssue: 3
     commit: 7
   last90d:
-    since: 2026-08-29
+    since: 2026-08-30
     release: 0
     mergedPR: 0
     openPR: 0
@@ -58,7 +58,7 @@ recent:
     openIssue: 3
     commit: 7
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 0
     mergedPR: 3
     openPR: 1
@@ -66,7 +66,7 @@ recent:
     openIssue: 5
     commit: 19
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 0
     mergedPR: 3
     openPR: 3
@@ -74,7 +74,7 @@ recent:
     openIssue: 15
     commit: 32
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 1
     mergedPR: 4
     openPR: 8
@@ -90,7 +90,7 @@ total:
   commit: 1600
 ---
 path: /home/runner/.x-repo/github.com/andmarti1424/sc-im
-collectedAt: 2026-11-27T09:31:20Z
+collectedAt: 2026-11-28T08:12:29Z
 loc:
   Scala:
     code: 32606
